@@ -35,7 +35,7 @@ Open [http://localhost:3100](http://localhost:3100) with your browser to see the
 # -----------------------------------------------------------------------------
 # BASIC CONFIG:
 # -----------------------------------------------------------------------------
-NEXT_PUBLIC_API_URL="http://localhost:3100/api"
+NEXT_PUBLIC_API_URL=http://localhost:3100/api
 NEXT_PUBLIC_NEXT_URL=http://localhost:3100
 MONGODB_URI=mongodb+srv://digitalabdulis:jOaaPuCHbHDmUH8E@cluster0.qpzh9.mongodb.net/?retryWrites=true&w=majority
 ```
