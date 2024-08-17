@@ -25,7 +25,7 @@ const ProductClient = ({ products }: Props) => {
 
 		// Filter the products by search text
 		const filteredProducts = products.filter((product) => {
-			return product.name.toLowerCase().startsWith(searchText.toLowerCase());
+			return product?.name.toLowerCase().startsWith(searchText.toLowerCase());
 		});
 
 		// Then sort by price
